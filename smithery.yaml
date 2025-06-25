@@ -1,4 +1,8 @@
 version: 1
+
 start:
   command: ["node", "build/index.js"]
-  port: 8000 
+  port: 8000
+
+healthcheck:
+  disabled: true
