@@ -2,7 +2,7 @@ version: 1
 
 start:
   command: ["node", "build/index.js"]
-  port: 8010
+  port: 8000
 
 healthcheck:
   disabled: true
