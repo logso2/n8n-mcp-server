@@ -3,4 +3,6 @@ version: 1
 start:
   command: ["node", "build/index.js"]
   port: 8010
-  healthcheck: false
+
+healthcheck:
+  disabled: true
